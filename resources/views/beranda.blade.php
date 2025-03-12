@@ -56,20 +56,20 @@
 
   <!-- Hero Section -->
   <div class="bg-gradient-to-b from-[#FFE262] to-transparent pt-8 pb-16">
-    <img src="img/Awan.png" class="absolute top-60 left-10 w-32 animate-float" />
-    <img src="img/Awan.png" class="absolute top-20 right-10 w-40 animate-float-slow" />
-    <img src="img/Awan.png" class="absolute bottom-10 left-1/3 w-36 animate-float" />
+    <img src="img/Awan.png" class="absolute top-60 left-10 w-32" data-aos="fade-down"/>
+    <img src="img/Awan.png" class="absolute top-20 right-10 w-40" data-aos="fade-down"/>
+    <img src="img/Awan.png" class="absolute bottom-10 left-1/3 w-36" data-aos="zoom-in-down"/>
     <div class="max-w-7xl mx-auto px-4 flex flex-col-reverse md:flex-row items-center">
       <!-- Kiri: Judul & Deskripsi -->
       <div class="w-full md:w-1/2 space-y-4 mt-6 md:mt-[150px]" data-aos="fade-right">
-        <h1 class="text-3xl md:text-7xl font-bold animate-bounce">
+        <h1 class="text-3xl md:text-7xl font-bold">
           Masa Depan Dimulai di Coding Farm!
         </h1>
-        <p class="text-lg md:text-xl animate-bounce">
+        <p class="text-lg md:text-xl">
           Selamat Datang di Coding Farm! Jadikan anak Anda kreatif,
           inovatif, dan siap menghadapi tantangan era digital.
         </p>
-        <div class="flex gap-4 animate-bounce" >
+        <div class="flex gap-4" >
           <button type="button" class="text-white bg-gradient-to-r from-[#FF9D2E] to-[#FC6139] hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-[#FC6139] font-bold text-lg px-8 py-4 text-center me-2 rounded-[32px] mt-[16px]">
             Coba Kelas Gratis
           </button>
@@ -79,7 +79,7 @@
         <img
           src="img/Maskot.png"
           alt="Robot Mascot"
-          class="mx-auto w-[300px] md:w-[450px] mt-[120px] md:ml-[128px] animate-spin"
+          class="mx-auto w-[300px] md:w-[450px] mt-[120px] md:ml-[128px]"
         />
       </div>
     </div>
@@ -119,9 +119,9 @@
       Mitra <span class="text-[#F7A831]">Kami</span>
     </h1>
     <!-- Pembungkus overflow-hidden agar konten yang melewati batas tidak terlihat -->
-    <div class="overflow-hidden" data-aos="fade-up">
+    <div class="overflow-hidden" data-aos="zoom-in-up">
       <!-- Flex container dengan animasi marquee. Duplikasi logo diperlukan untuk efek scrolling yang mulus -->
-      <div class="flex animate-marquee space-x-8">
+      <div class="flex animate-marquee space-x-8 mt-[32px]">
         <img src="img/Logo.png" alt="Mitra 1" class="h-12 object-contain flex-shrink-0">
         <img src="img/Logo.png" alt="Mitra 2" class="h-12 object-contain flex-shrink-0">
         <img src="img/Logo.png" alt="Mitra 3" class="h-12 object-contain flex-shrink-0">
@@ -140,17 +140,19 @@
 
   <!-- Pilih Program Terbaik untuk Anak -->
   <div class="max-w-7xl mx-auto px-4 py-8 mt-[128px] text-center">
-    <h2 class="text-3xl md:text-[64px] font-bold mb-6">
-      Pilih <span class="text-[#F7A831]"> Program </span> Terbaik untuk Anak
-    </h2>
-    <p class="text-lg md:text-xl mx-[50px]">
-      Kami menghadirkan pembelajaran coding yang seru dan interaktif, sesuai dengan usia dan kebutuhan anak di era digital.
-    </p>
+    <div data-aos="fade-down">
+      <h2 class="text-3xl md:text-[64px] font-bold mb-6">
+        Pilih <span class="text-[#F7A831]"> Program </span> Terbaik untuk Anak
+      </h2>
+      <p class="text-lg md:text-xl mx-[50px]">
+        Kami menghadirkan pembelajaran coding yang seru dan interaktif, sesuai dengan usia dan kebutuhan anak di era digital.
+      </p>
+    </div>
     <div class="flex items-center mt-[64px]">
       <div class="container mx-auto p-4">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <!-- Card 1 -->
-          <div class="group relative flex flex-col justify-center overflow-hidden rounded-xl shadow-xl ring-gray-900/5">
+          <div class="group relative flex flex-col justify-center overflow-hidden rounded-xl shadow-xl ring-gray-900/5" data-aos="fade-up-right">
             <div class="relative h-64 w-full overflow-hidden rounded-xl border border-gray-200 opacity-50 transition duration-300 ease-in-out group-hover:opacity-100 dark:border-gray-700 dark:opacity-70">
               <img src="https://images.unsplash.com/photo-1506187334569-7596f62cf93f?ixlib=rb-4.0.3&auto=format&fit=crop&w=3149&q=80" class="animate-fade-in block h-full w-full transform object-cover object-center transition duration-300 group-hover:scale-110" alt="Azores" />
             </div>
@@ -164,7 +166,7 @@
           </div>
     
           <!-- Card 2 -->
-          <div class="group relative flex flex-col justify-center overflow-hidden rounded-xl shadow-xl ring-gray-900/5">
+          <div class="group relative flex flex-col justify-center overflow-hidden rounded-xl shadow-xl ring-gray-900/5" data-aos="fade-up">
             <div class="relative h-64 w-full overflow-hidden rounded-xl border border-gray-200 opacity-50 transition duration-300 ease-in-out group-hover:opacity-100 dark:border-gray-700 dark:opacity-70">
               <img src="https://images.unsplash.com/photo-1516442719524-a603408c90cb?auto=format&fit=crop&w=800&q=60" class="animate-fade-in block h-full w-full transform object-cover object-center transition duration-300 group-hover:scale-110" alt="Bali" />
             </div>
@@ -178,7 +180,7 @@
           </div>
     
           <!-- Card 3 -->
-          <div class="group relative flex flex-col justify-center overflow-hidden rounded-xl shadow-xl ring-gray-900/5">
+          <div class="group relative flex flex-col justify-center overflow-hidden rounded-xl shadow-xl ring-gray-900/5" data-aos="fade-up-left">
             <div class="relative h-64 w-full overflow-hidden rounded-xl border border-gray-200 opacity-50 transition duration-300 ease-in-out group-hover:opacity-100 dark:border-gray-700 dark:opacity-70">
               <img src="https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?auto=format&fit=crop&w=800&q=60" class="animate-fade-in block h-full w-full transform object-cover object-center transition duration-300 group-hover:scale-110" alt="Sicily" />
             </div>
@@ -198,7 +200,7 @@
   {{-- Metode Pembelajarang --}}
   <section class="max-w-7xl mx-auto px-4 py-12 mt-[128px]">
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-      <div class="w-full">
+      <div class="w-full" data-aos="fade-up-right">
         <img
           src="img/metode.png"
           alt="Belajar Coding"
@@ -207,7 +209,7 @@
       </div>
       
       <!-- Kolom Kanan: Teks & Fitur -->
-      <div>
+      <div data-aos="fade-up-left">
         <h2 class="text-3xl md:text-[40px] font-bold text-[#003F5A] mb-4">
           Metode <span class="text-[#F7A831]">Pembelajaran</span>
         </h2>
@@ -290,7 +292,7 @@
   <!-- Testimonial -->
   <section class="py-24">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-      <div class="mb-16">
+      <div class="mb-16" data-aos="fade-up">
         <h1 class="text-3xl md:text-6xl font-bold text-center md:mx-32">
           Apa Kata Mereka Tentang 
           <span class="text-[#20A592]">C</span><span class="text-[#FECE21]">o</span><span class="text-[#FC6139]">d</span><span class="text-[#DB3166]">i</span><span class="text-[#0CB5C4]">n</span><span class="text-[#68C35C]">g</span>
@@ -298,17 +300,14 @@
         </h1>
       </div>
       <!-- Slider wrapper -->
-      <div class="swiper mySwiper">
+      <div class="swiper mySwiper" data-aos="fade-up">
         <div class="swiper-wrapper w-max">
           <!-- Slide 1 -->
           <div class="swiper-slide">
             <div class="group bg-[#FEFAF4] border border-solid border-gray-300 rounded-[32px] p-6 transition-all duration-500 w-full mx-auto hover:border-[#F7A831] hover:shadow-sm slide_active:border-indigo-600">
               <div>
                 <div class="flex items-center mb-7 gap-2 text-amber-500 transition-all duration-500">
-                  <svg class="w-5 h-5" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M8.10326 1.31699C8.47008 0.57374 9.52992 0.57374 9.89674 1.31699L11.7063 4.98347C11.8519 5.27862 12.1335 5.48319 12.4592 5.53051L16.5054 6.11846C17.3256 6.23765 17.6531 7.24562 17.0596 7.82416L14.1318 10.6781C13.8961 10.9079 13.7885 11.2389 13.8442 11.5632L14.5353 15.5931C14.6754 16.41 13.818 17.033 13.0844 16.6473L9.46534 14.7446C9.17402 14.5915 8.82598 14.5915 8.53466 14.7446L4.91562 16.6473C4.18199 17.033 3.32456 16.41 3.46467 15.5931L4.15585 11.5632C4.21148 11.2389 4.10393 10.9079 3.86825 10.6781L0.940384 7.82416C0.346867 7.24562 0.674378 6.23765 1.4946 6.11846L5.54081 5.53051C5.86652 5.48319 6.14808 5.27862 6.29374 4.98347L8.10326 1.31699Z" fill="currentColor" />
-                  </svg>
-                  <span class="text-base font-semibold text-indigo-600">4.9</span>
+                  <img class="h-auto w-8" src="img/koma.png" alt="avatar" />
                 </div>
                 <p class="text-base  leading-6 transition-all duration-500 pb-8 group-hover:text-gray-800 slide_active:text-gray-800">
                   Pagedone has made it possible for me to stay on top of my portfolio and make informed decisions quickly and easily.
@@ -424,33 +423,34 @@
   {{-- CTA --}}
   <section class="max-w-7xl mx-auto px-4 py-12">
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-      <!-- Kartu Kiri: Latar Oranye -->
-      <div class="bg-[#F7A831] p-8 rounded-[32px] text-[#003F5A]">
+      <div class="bg-[#F7A831] p-8 rounded-[32px] text-[#003F5A]" data-aos="fade-up-right">
         <h2 class="text-2xl md:text-3xl font-bold mb-4">
           Mulai Perjalanan Coding Anak
         </h2>
         <p class="text-base mb-6 leading-relaxed">
-          Bantu anak mengembangkan keterampilan digital sejak dini dengan 
-          pembelajaran coding yang interaktif dan menyenangkan.
+          Berikan pengalaman belajar yang seru dan interaktif untuk anak Anda! 
+          Dengan metode yang menyenangkan, mereka bisa mengasah kreativitas, logika, dan keterampilan digital sejak dini.
         </p>
-        <button type="button" class="bg-white font-bold text-lg px-8 py-4 text-center me-2 rounded-[32px] mt-[16px]">
-          Coba Kelas Gratis
+        <button
+          type="button"
+          class="bg-white px-6 py-3 rounded-full font-semibold shadow hover:shadow-md transition"
+        >
+        Coba Kelas Gratis
         </button>
       </div>
   
-      <!-- Kartu Kanan: Border Oranye -->
-      <div class="border-2 border-[#F7A831] rounded-[32px] p-8 text-[#003F5A]">
+      <div class=" bg-[#FEFAF4] border-2 border-[#F7A831] rounded-[32px] p-8 text-[#003F5A]" data-aos="fade-up-left">
         <h2 class="text-2xl md:text-3xl font-bold mb-4">
-          Coba Kelas Gratis!
+          Konsultasi Gratis dengan Kami!
         </h2>
         <p class="text-base mb-6 leading-relaxed">
-          Coba kelas gratis dan rasakan pengalaman belajar di Coding Farm.
+          Ada pertanyaan atau butuh bantuan? Kami siap membantu Anda! Jangan ragu untuk menghubungi tim kami untuk informasi lebih lanjut.
         </p>
         <button
           type="button"
           class="bg-[#F7A831] text-white px-6 py-3 rounded-full font-semibold shadow hover:shadow-md transition"
         >
-        Coba Kelas Gratis!
+        Hubungi Kami
         </button>
       </div>
     </div>
@@ -460,14 +460,14 @@
   <section class="py-24" x-data="{ openFaq: 1 }">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <div class="flex flex-col justify-center items-center gap-x-16 gap-y-5 xl:gap-28 lg:flex-row lg:justify-between max-lg:max-w-2xl mx-auto max-w-full">
-        <div class="w-full">
+        <div class="w-full" data-aos="fade-up-right">
           <img
             src="img/FAQ.png"
             alt="Belajar Coding"
             class="w-auto h-auto rounded-lg object-cover"
           />
         </div>
-        <div class="w-full">
+        <div class="w-full" data-aos="fade-up-left">
           <div class="lg:max-w-xl">
             <div class="mb-6 lg:mb-16">
               <h2 class="text-4xl font-bold leading-[3.25rem] mb-5 lg:text-left">

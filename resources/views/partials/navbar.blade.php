@@ -17,7 +17,7 @@
 </head>
 <body class="font-poppins text-[#003F5A] ">
   <!-- Header yang fixed agar mengambang -->
-  <header class="fixed top-0 left-0 right-0 z-50 bg-white rounded-[32px] shadow-lg mt-[25px] mx-[25px] lg:mx-[100px]" x-data="{ mobileMenu: false }">
+  <header class="fixed top-0 left-0 right-0 z-50 bg-white rounded-[32px] shadow-lg mt-[25px] mx-[25px] lg:mx-[120px]" x-data="{ mobileMenu: false }">
     
     <!-- Navbar dengan padding 20px -->
     <nav class="mx-auto flex max-w-7xl items-center justify-between p-5" aria-label="Global">
